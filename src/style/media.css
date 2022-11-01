@@ -1,0 +1,32 @@
+@media (max-width: 767px) {
+  .header {
+    grid-template-columns: 2fr 1fr 2fr;
+  }
+  .header__logo {
+    display: block;
+    margin: 8px auto;
+  }
+  .header__menu {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .banner__title {
+	font-size: 8vw;
+}
+.banner {
+	grid-template-columns: 1fr;
+	margin-bottom: 0;
+}
+.banner__content {
+	margin-bottom: 50px;
+}
+.banner__img {
+	width: 80%;
+	margin: 0 auto 50px auto;
+}
+.logo-bar__img {
+	max-width: 14%;
+}
+}

@@ -1,0 +1,22 @@
+body{
+	background-color: #fff;
+	
+}
+.main-container {
+	max-width: 1165px;
+	margin: 30px auto;
+	padding: 2%;
+
+}
+.start-button {
+	border-radius: 10px;
+	color: #fff;
+	font-size: 17px;
+	font-family: "DM Sans";
+	font-weight: 700;
+	text-align: center;
+	cursor: pointer;
+  }
+  .start-button:hover {
+	opacity: 0.9;
+  }
