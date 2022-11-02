@@ -3,39 +3,37 @@
 	grid-template-columns: 1fr 1fr;
 	margin-bottom: 112px;
 }
+
 .banner__title {
 	font-family: "DM Sans";
-  	font-weight: 700;
+	font-weight: 700;
 	font-size: calc(4vw + 20px);
 	line-height: 0.93em;
 }
-.banner__description {
-	font-family: "Mulish";
-	font-weight: 400;
-	font-size: 20px;
-	color:#696871;
-	width: 80%;
 
-}
 .banner__start-container {
 	margin-top: 50px;
 	display: flex;
 	align-items: center;
 
 }
+
 .banner .start-button {
 	background-color: #5454D4;
 	width: 211px;
 	height: 60px;
 	margin-right: 40px;
 }
+
 .start-arrow-button {
 	background-color: transparent;
 	cursor: pointer;
 }
+
 .start-arrow-img:hover {
 	opacity: 0.5;
 }
+
 .banner__img {
 	display: block;
 	width: 100%;
