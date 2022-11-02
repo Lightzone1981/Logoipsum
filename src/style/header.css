@@ -26,6 +26,11 @@
 	background-color: transparent;
 }
 
+.burger:hover {
+opacity: 0.5;
+cursor: pointer;
+}
+
 .header-menu__item {
 	display: block;
 	padding: 0.8em 0;

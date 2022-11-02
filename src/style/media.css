@@ -46,7 +46,7 @@
 	.cards {
 		grid-template-columns: 1fr;
 		grid-template-rows: 2fr 1fr 2fr 1fr;
-		margin-bottom: 138px;
+		margin-bottom: 50px;
 	}
 
 	.card--1 {
@@ -65,5 +65,25 @@
 	.card--4 {
 		grid-row: 3;
 	}
+
+	/* styles for services section */
+	.services {
+		grid-template-columns: 1fr;
+	}
+
+	.services-card {
+		margin-bottom: 50px;
+	}
+
+	.services-card__img--1 {
+		position: relative;
+		left: 25px;
+	}
+
+	.services-card__img--3 {
+		position: relative;
+		left: 35px;
+	}
+
 
 }
