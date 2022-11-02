@@ -1,35 +1,35 @@
 .cards {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-	align-items: center;
-	margin-bottom: 138px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  margin-bottom: 138px;
 }
 
 .cards * {
-	margin: 20px 10px;
+  margin: 20px 10px;
 }
 
 .cards-img {
-	display: block;
-	margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .cards-info__title {
-	font-family: DM Sans;
-	font-weight: 700;
-	font-size: 50px;
-	color: #19191B;
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 50px;
+  color: #19191b;
 }
 
 .cards-info__learnmore {
-	text-decoration: none;
-	font-family: DM Sans;
-	font-weight: 300;
-	font-size: 17px;
-	color: #5454D4;
+  text-decoration: none;
+  font-family: DM Sans;
+  font-weight: 300;
+  font-size: 17px;
+  color: #5454d4;
 }
 
 .cards-info__learnmore:hover {
-	opacity: 0.8;
+  opacity: 0.8;
 }

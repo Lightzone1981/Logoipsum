@@ -1,30 +1,31 @@
 .services {
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .services-card {
-	padding: 0 5px;
+  padding: 0 5px;
 }
 
 .services-card__img {
-	display: block;
-	margin: 0 auto;
-	max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 .services-card__title {
-	font-family: DM Sans;
-	font-weight: 700;
-	font-size: 24px;
-	color: #19191B;
-	text-align: center;
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 24px;
+  color: #19191b;
+  text-align: center;
 }
 
 .description--services {
-	font-size: 16px;
-	text-align: center;
-	margin: 20px auto 0 auto;
-	width: 80%;
+  font-size: 16px;
+  text-align: center;
+  margin: 20px auto 0 auto;
+  width: 80%;
 }
