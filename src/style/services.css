@@ -1,31 +1,28 @@
-.services {
-  margin: 0 auto;
-  margin-bottom: 50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.services{
+  padding: 1rem 0;
+}
+.services__container {
+  display: flex;
+  justify-content: center;
 }
 
 .services-card {
-  padding: 0 5px;
+  text-align: center;
+  flex-basis: 32%;
+  padding: 0 0.5rem;
 }
 
 .services-card__img {
-  display: block;
   margin: 0 auto;
   max-width: 100%;
 }
 
 .services-card__title {
-  font-family: DM Sans;
-  font-weight: 700;
-  font-size: 24px;
-  color: #19191b;
-  text-align: center;
+  font-size: 1.5rem;
 }
 
-.description--services {
-  font-size: 16px;
-  text-align: center;
-  margin: 20px auto 0 auto;
+.services__description {
+  font-size: 1rem;
+  margin: 1.25rem auto 0 auto;
   width: 80%;
 }

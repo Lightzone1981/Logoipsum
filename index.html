@@ -14,179 +14,190 @@
   </head>
 
   <body>
-    <div class="main-container">
+    <div class="wrapper">
       <header class="header">
-        <img class="header__logo" src="./src/icons/logo-icon.svg" alt="logo" />
-        <button class="burger"></button>
-        <div class="header__menu">
-          <a href="#" class="header-menu__item">Home</a>
-          <a href="#" class="header-menu__item">Features</a>
-          <a href="#" class="header-menu__item">Pricing</a>
-          <a href="#" class="header-menu__item">Blog</a>
+        <div class="container header__container">
+          <img
+            class="header__logo"
+            src="./src/icons/logo-icon.svg"
+            alt="logo"
+          />
+          <button class="header__burger"></button>
+          <div class="header-menu">
+            <a class="header-menu__item" href="#">Home</a>
+            <a class="header-menu__item" href="#">Features</a>
+            <a class="header-menu__item" href="#">Pricing</a>
+            <a class="header-menu__item" href="#">Blog</a>
+          </div>
+          <button class="header__start-button start-button">Get Started</button>
         </div>
-        <button class="start-button" href="#">Get Started</button>
       </header>
 
       <section class="banner">
-        <div class="banner__content">
-          <h1 class="banner__title">Grow your subscription business</h1>
-          <h3 class="description description--banner">
-            Outcome-centered products that reduce churn, optimize pricing, and
-            grow your subscription business end-to-end.
-          </h3>
-          <div class="banner__start-container">
-            <button class="start-button" href="#">Get Started</button>
-            <button class="start-arrow-button">
-              <img
-                class="start-arrow-img"
-                src="./src/icons/arrow-icon.svg"
-                alt="Start arrow"
-              />
-            </button>
+        <div class="container banner__container">
+          <div class="banner__content">
+            <h1 class="banner__title">Grow your subscription business</h1>
+            <h3 class="description banner__description">
+              Outcome-centered products that reduce churn, optimize pricing, and
+              grow your subscription business end-to-end.
+            </h3>
+            <div class="banner__start-container">
+              <button class="start-button banner__start-button">
+                Get Started
+              </button>
+              <button class="banner__arrow-button">
+                <img
+                  class="banner__arrow-img"
+                  src="./src/icons/arrow-icon.svg"
+                  alt="Start arrow"
+                />
+              </button>
+            </div>
           </div>
+          <img
+            class="banner__img"
+            src="./src/images/skate.png"
+            alt="Man on skate"
+          />
         </div>
-        <img
-          class="banner__img"
-          src="./src/images/skate.png"
-          alt="Man on skate"
-        />
       </section>
 
       <section class="logo-bar">
-        <img class="logo-bar__img" src="./src/icons/logo-01.svg" alt="logo" />
-        <img class="logo-bar__img" src="./src/icons/logo-02.svg" alt="logo" />
-        <img class="logo-bar__img" src="./src/icons/logo-03.svg" alt="logo" />
-        <img class="logo-bar__img" src="./src/icons/logo-04.svg" alt="logo" />
-        <img class="logo-bar__img" src="./src/icons/logo-05.svg" alt="logo" />
+        <div class="container logo-bar__container">
+          <img class="logo-bar__img" src="./src/icons/logo-01.svg" alt="logo" />
+          <img class="logo-bar__img" src="./src/icons/logo-02.svg" alt="logo" />
+          <img class="logo-bar__img" src="./src/icons/logo-03.svg" alt="logo" />
+          <img class="logo-bar__img" src="./src/icons/logo-04.svg" alt="logo" />
+          <img class="logo-bar__img" src="./src/icons/logo-05.svg" alt="logo" />
+        </div>
       </section>
 
       <section class="cards">
-        <img
-          class="cards-img card--1"
-          src="./src/images/diagram.png"
-          alt="Man with round diaram"
-        />
-        <div class="cards-info card--2">
-          <h2 class="cards-info__title">Subscription index</h2>
-          <h3 class="description description--cards">
-            A daily dataset to keep you up to date on subscription market trends
-            and what's happening in your vertical.
-          </h3>
-          <a class="cards-info__learnmore" href="#">Learn more</a>
+        <div class="container cards__container">
+          <img
+            class="cards__img card"
+            src="./src/images/diagram.png"
+            alt="Man with round diaram"
+          />
+          <div class="cards__info card">
+            <h2 class="cards__title">Subscription index</h2>
+            <h3 class="description cards__description">
+              A daily dataset to keep you up to date on subscription market
+              trends and what's happening in your vertical.
+            </h3>
+            <a class="cards__learnmore" href="#">Learn more</a>
+          </div>
+          <div class="cards__info card">
+            <h2 class="cards__title">In-depth metrics</h2>
+            <h3 class="description cards__description">
+              Accurate, real-time reporting at your fingertips. Getting data has
+              never been easier.
+            </h3>
+            <a class="cards__learnmore" href="#">Learn more</a>
+          </div>
+          <img
+            class="cards__img card"
+            src="./src/images/blue-graph.png"
+            alt="Man with blue graph"
+          />
         </div>
-        <div class="cards-info card--3">
-          <h2 class="cards-info__title">In-depth metrics</h2>
-          <h3 class="description description--cards">
-            Accurate, real-time reporting at your fingertips. Getting data has
-            never been easier.
-          </h3>
-          <a class="cards-info__learnmore" href="#">Learn more</a>
-        </div>
-        <img
-          class="cards-img card--4"
-          src="./src/images/blue graph.png"
-          alt="Man with blue graph"
-        />
       </section>
 
       <section class="services">
-        <div class="services-card">
-          <img
-            class="services-card__img services-card__img--1"
-            src="./src/images/paycard.png"
-            alt="PayCard image"
-          />
-          <div class="services-card__content">
-            <h2 class="services-card__title">Benchmarks</h2>
-            <h3 class="description description--services">
-              See how you stack up against comparable companies in similar
-              stages.
-            </h3>
+        <div class="container services__container">
+          <div class="services-card">
+            <img
+              class="services-card__img"
+              src="./src/images/paycard.png"
+              alt="PayCard image"
+            />
+            <div class="services-card__content">
+              <h2 class="services-card__title">Benchmarks</h2>
+              <h3 class="description services__description">
+                See how you stack up against comparable companies in similar
+                stages.
+              </h3>
+            </div>
           </div>
-        </div>
-        <div class="services-card">
-          <img
-            class="services-card__img services-card__img--2"
-            src="./src/images/calc.png"
-            alt="Calculator image"
-          />
-          <div class="services-card__content">
-            <h2 class="services-card__title">Pricing Audit</h2>
-            <h3 class="description description--services">
-              Benchmark the health of your monetization and pricing strategy.
-            </h3>
+          <div class="services-card">
+            <img
+              class="services-card__img"
+              src="./src/images/calc.png"
+              alt="Calculator image"
+            />
+            <div class="services-card__content">
+              <h2 class="services-card__title">Pricing Audit</h2>
+              <h3 class="description services__description">
+                Benchmark the health of your monetization and pricing strategy.
+              </h3>
+            </div>
           </div>
-        </div>
-        <div class="services-card">
-          <img
-            class="services-card__img services-card__img--3"
-            src="./src/images/camera.png"
-            alt="Camera image"
-          />
-          <div class="services-card__content">
-            <h2 class="services-card__title">Retention Audit</h2>
-            <h3 class="description description--services">
-              Audit where revenue leakage exists and where you can increase
-              retention.
-            </h3>
+          <div class="services-card">
+            <img
+              class="services-card__img"
+              src="./src/images/camera.png"
+              alt="Camera image"
+            />
+            <div class="services-card__content">
+              <h2 class="services-card__title">Retention Audit</h2>
+              <h3 class="description services__description">
+                Audit where revenue leakage exists and where you can increase
+                retention.
+              </h3>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="tariff-plan">
-        <h2 class="tariff-plan__title">
-          Get the right plan for future product.
-        </h2>
-        <div class="tariff-plan-choice">
-          <div class="tariff-radio-btn tariff-radio-btn--left">
-            <input type="radio" name="plan" id="yearly" checked />
-            <label for="yearly">Yearly</label>
+      <section class="tariff">
+        <div class="container tariff__container">
+          <h2 class="tariff__title">Get the right plan for future product.</h2>
+          <div class="tariff__radio">
+            <div class="tariff__btn tariff__btn--left">
+              <input type="radio" name="plan" id="yearly" checked />
+              <label for="yearly">Yearly</label>
+            </div>
+            <div class="tariff__btn tariff__btn--right">
+              <input type="radio" name="plan" id="monthly" />
+              <label for="monthly">Monthly</label>
+            </div>
           </div>
-          <div class="tariff-radio-btn tariff-radio-btn--right">
-            <input type="radio" name="plan" id="monthly" />
-            <label for="monthly">Monthly</label>
+          <div class="tariff__cards-container">
+            <ul class="tariff__card">
+              <li class="tariff__item">Starter</li>
+              <li class="tariff__item">Free</li>
+              <li class="tariff__item">5 GB Hosting</li>
+              <li class="tariff__item">Limited Support</li>
+              <li class="tariff__item">1 Website</li>
+              <li class="tariff__item">
+                <button class="start-button tariff__button">Get Started</button>
+              </li>
+            </ul>
+            <ul class="tariff__card tariff__card--bright">
+              <li class="tariff__item">Premium</li>
+              <li class="tariff__item">$29<span>/month</span></li>
+              <li class="tariff__item">10 Website</li>
+              <li class="tariff__item">15 GB Hosting</li>
+              <li class="tariff__item">Premium Support</li>
+              <li class="tariff__item">
+                <button
+                  class="start-button tariff__button tariff__button--bright"
+                >
+                  Get Started
+                </button>
+              </li>
+            </ul>
+            <ul class="tariff__card">
+              <li class="tariff__item">Enterprise</li>
+              <li class="tariff__item">$49<span>/month</span></li>
+              <li class="tariff__item">Unlimited Website</li>
+              <li class="tariff__item">50 GB Hosting</li>
+              <li class="tariff__item">Premium Support</li>
+              <li class="tariff__item">
+                <button class="start-button tariff__button">Get Started</button>
+              </li>
+            </ul>
           </div>
-        </div>
-        <div class="plan-cadrs-container">
-          <ul class="plan-card">
-            <li class="plan-card__item">Starter</li>
-            <li class="plan-card__item">Free</li>
-            <li class="plan-card__item">1 Website</li>
-            <li class="plan-card__item">5 GB Hosting</li>
-            <li class="plan-card__item">Limited Support</li>
-            <li class="plan-card__item">
-              <button class="start-button start-button--plan" href="#">
-                Get Started
-              </button>
-            </li>
-          </ul>
-          <ul class="plan-card plan-card--bright">
-            <li class="plan-card__item">Premium</li>
-            <li class="plan-card__item">$29<span>/month</span></li>
-            <li class="plan-card__item">10 Website</li>
-            <li class="plan-card__item">15 GB Hosting</li>
-            <li class="plan-card__item">Premium Support</li>
-            <li class="plan-card__item">
-              <button
-                class="start-button start-button--plan start-button--bright"
-                href="#"
-              >
-                Get Started
-              </button>
-            </li>
-          </ul>
-          <ul class="plan-card">
-            <li class="plan-card__item">Enterprise</li>
-            <li class="plan-card__item">$49<span>/month</span></li>
-            <li class="plan-card__item">Unlimited Website</li>
-            <li class="plan-card__item">50 GB Hosting</li>
-            <li class="plan-card__item">Premium Support</li>
-            <li class="plan-card__item">
-              <button class="start-button start-button--plan" href="#">
-                Get Started
-              </button>
-            </li>
-          </ul>
         </div>
       </section>
     </div>

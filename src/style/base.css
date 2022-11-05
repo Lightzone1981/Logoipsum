@@ -2,16 +2,18 @@ body {
   background-color: #fff;
 }
 
-.main-container {
-  max-width: 1165px;
-  margin: 30px auto;
-  padding: 2%;
+.container {
+  max-width: 72.8rem;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .start-button {
-  border-radius: 10px;
+  width: 13rem;
+  height: 3.75rem;
+  border-radius: 0.625rem;
   color: #fff;
-  font-size: 17px;
+  font-size: 1rem;
   font-family: "DM Sans";
   font-weight: 700;
   text-align: center;
@@ -19,13 +21,24 @@ body {
 }
 
 .start-button:hover {
-  opacity: 0.9;
+  filter: brightness(90%);
+}
+
+h1 {
+  font-family: "DM Sans";
+  font-weight: 700;
+  line-height: 0.93em;
+}
+
+h2{
+  font-family: DM Sans;
+  font-weight: 700;
+  color: #19191b;
 }
 
 h3 {
   font-family: "Mulish";
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.25em;
   color: #696871;
-  width: 80%;
 }

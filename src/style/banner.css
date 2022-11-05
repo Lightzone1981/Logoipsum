@@ -1,39 +1,32 @@
-.banner {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-bottom: 112px;
+.banner__container {
+  display: flex;
+  padding-bottom: 1em;
+}
+
+.banner__img{
+  width: 50%;
 }
 
 .banner__title {
-  font-family: "DM Sans";
-  font-weight: 700;
-  font-size: calc(4vw + 20px);
-  line-height: 0.93em;
+  font-size: calc(4vw + 1.25rem);
 }
 
 .banner__start-container {
-  margin-top: 50px;
+  margin-top: 2rem;
   display: flex;
   align-items: center;
 }
 
-.banner .start-button {
+.banner__start-button {
   background-color: #5454d4;
-  width: 211px;
-  height: 60px;
-  margin-right: 40px;
+  margin-right: 2.5rem;
 }
 
-.start-arrow-button {
+.banner__arrow-button {
   background-color: transparent;
   cursor: pointer;
 }
 
-.start-arrow-img:hover {
-  opacity: 0.5;
-}
-
-.banner__img {
-  display: block;
-  width: 100%;
+.banner__arrow-img:hover {
+  filter: brightness(70%);
 }

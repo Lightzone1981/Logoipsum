@@ -1,4 +1,8 @@
-.tariff-plan {
+.tariff{
+padding: 8.37rem 0 2rem 0;
+}
+
+.tariff__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
@@ -7,126 +11,124 @@
     "cont cont";
 }
 
-.tariff-plan__title {
+.tariff__title {
   grid-area: title;
-  font-family: DM Sans;
   font-size: calc(3vw + 15px);
-  font-weight: 700;
 }
 
-.tariff-plan-choice {
+.tariff__radio {
   grid-area: choice;
   display: flex;
   flex-grow: 1;
-  padding: 4px;
+  padding: 0.25rem;
   margin: auto 0 auto auto;
-  width: 344px;
-  height: 65px;
-  border-radius: 13px;
+  width: 21.5rem;
+  height: 4.05rem;
+  border-radius: 0.81rem;
   background-color: #f7f7fb;
 }
 
-.tariff-radio-btn {
+.tariff__btn {
   width: 50%;
   overflow: hidden;
 }
 
-.tariff-radio-btn--left {
-  border-radius: 10px 0 0 10px;
+.tariff__btn--left {
+  border-radius: 0.625rem 0 0 0.625rem;
 }
 
-.tariff-radio-btn--right {
-  border-radius: 0 10px 10px 0;
+.tariff__btn--right {
+  border-radius: 0 0.625rem 0.625rem 0;
 }
 
-.tariff-radio-btn input[type="radio"] {
+.tariff__btn input[type="radio"] {
   display: none;
 }
 
-.tariff-radio-btn label {
+.tariff__btn label {
   display: block;
   text-align: center;
-  padding: 20px;
+  padding: 1.25rem;
   width: 100%;
   height: 100%;
   font-family: DM Sans;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
 }
 
-.tariff-radio-btn label:hover {
+.tariff__btn label:hover {
   cursor: pointer;
 }
 
-.tariff-radio-btn input[type="radio"]:checked + label {
+.tariff__btn input[type="radio"]:checked + label {
   background-color: #5454d4;
   color: #fff;
 }
 
-.tariff-radio-btn input[type="radio"]:disabled + label {
+.tariff__btn input[type="radio"]:disabled + label {
   background-color: #fff;
   color: black;
 }
 
-.plan-cadrs-container {
+.tariff__cards-container {
   grid-area: cont;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 
-.plan-card {
+.tariff__card {
   list-style-type: none;
   width: 32%;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   text-align: center;
   font-family: Mulish;
-  font-size: 17px;
+  font-size: 1.06rem;
   color: #696871;
   background-color: #f8f8f8;
 }
 
-.plan-card__item {
-  padding: 20px 0;
+.tariff__item {
+  padding: 1.5rem 0;
 }
 
-.plan-card__item:nth-child(2) {
-  font-size: 60px;
+.tariff__item:nth-child(2) {
+  font-size: 3.75rem;
+  padding: 0;
   font-weight: 700;
 }
 
-.plan-card__item:nth-child(2) span {
-  font-size: 28px;
+.tariff__item:nth-child(2) span {
+  font-size: 1.75rem;
 }
 
-.start-button--plan {
+.tariff__button{
   color: #5454d4;
   background-color: #fff;
   font-weight: 700;
   width: 85%;
-  height: 60px;
-  padding: 10px 0;
+  height: 3.75rem;
+  padding: 0.625rem 0;
 }
 
-.start-button--plan:hover {
+.tariff__button:hover {
   color: #e66a45;
 }
 
-.start-button--bright {
+.tariff__button--bright {
   background-color: #9f3919;
   color: #fff;
 }
 
-.plan-card--bright {
+.tariff__card--bright {
   background-color: #ff7143;
   color: #fff;
 }
 
-.plan-card--bright li:first-child {
-  margin-top: 20px;
+.tariff__card--bright .tariff__item:first-child {
+  margin-top: 1.5rem;
 }
-
-.plan-card--bright li:last-child {
-  margin-bottom: 20px;
+.tariff__card--bright .tariff__item:last-child {
+  margin-bottom: 1.5rem;
 }

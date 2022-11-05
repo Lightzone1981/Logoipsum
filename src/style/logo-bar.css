@@ -1,10 +1,11 @@
 .logo-bar {
+  padding: 4rem 0 4rem 0;
+}
+.logo-bar__container {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 150px;
 }
 
 .logo-bar__img {
-  display: block;
-  max-width: 17%;
+  max-width: 16%;
 }

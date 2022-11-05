@@ -1,112 +1,132 @@
 @media (max-width: 767px) {
   /* styles for header section */
+
   .header {
-    grid-template-columns: 2fr 1fr 2fr;
+    height: 6rem;
   }
 
-  .header__logo {
-    display: block;
-    margin: 8px auto;
-  }
-
-  .header__menu {
+  .header-menu {
     display: none;
   }
 
-  .burger {
+  .header__burger {
     display: block;
   }
 
+  .header .start-button {
+    display: none;
+  }
+
   /* styles for banner section */
+
+  .banner {
+    text-align: center;
+  }
+
   .banner__title {
     font-size: 8vw;
   }
+  .banner__start-container {
+    justify-content: center;
+  }
 
-  .banner {
-    grid-template-columns: 1fr;
-    margin-bottom: 0;
+  .banner__container {
+    flex-direction: column;
+    padding-bottom: 0;
   }
 
   .banner__content {
-    margin-bottom: 50px;
+    padding-bottom: 1em;
   }
 
   .banner__img {
-    width: 80%;
-    margin: 0 auto 50px auto;
+    width: 90%;
+    margin: 0 auto;
   }
 
-  .logo-bar__img {
-    max-width: 14%;
+  /* styles for logo-bar section */
+
+  .logo-bar {
+    padding: 1rem 0 1rem 0;
   }
 
   /* styles for cards section */
-  .cards {
+
+  .cards__container {
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr 2fr 1fr;
-    margin-bottom: 50px;
+    grid-template-rows: auto;
+    text-align: center;
   }
 
-  .card--1 {
+  .cards__info {
+    padding-top: 1.5rem;
+  }
+  .cards__title {
+    font-size: 8vw;
+  }
+
+  .card:first-child {
     grid-row: 1;
   }
 
-  .card--2 {
+  .card:nth-child(2) {
     grid-row: 2;
-    margin-bottom: 70px;
+    padding-bottom: 2rem;
   }
 
-  .card--3 {
+  .card:nth-child(3) {
     grid-row: 4;
   }
 
-  .card--4 {
+  .card:last-child {
     grid-row: 3;
   }
 
   /* styles for services section */
-  .services {
-    grid-template-columns: 1fr;
+  .services__container {
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0.5rem 0 0.5rem 0;
   }
 
   .services-card {
-    margin-bottom: 50px;
+    width: 100%;
+    padding-bottom: 2rem;
   }
 
-  .services-card__img--1 {
+  .services-card:nth-child(odd) .services-card__img {
     position: relative;
-    left: 25px;
-  }
-
-  .services-card__img--3 {
-    position: relative;
-    left: 35px;
+    left: 1.56rem;
   }
 
   /* styles for tariff-plan section */
 
-  .tariff-plan {
+  .tariff {
+    padding: 0.5rem 0 0.5rem 0;
+  }
+
+  .tariff__container {
     display: block;
   }
 
-  .tariff-plan__title {
-    width: 90%;
+  .tariff__title {
     margin: 0 auto;
-    font-size: 50px;
+    font-size: 8vw;
+    text-align: center;
   }
 
-  .tariff-plan-choice {
-    margin: 50px auto;
-    width: 90%;
+  .tariff__radio {
+    width: 100%;
+    margin: 2rem auto;
   }
 
-  .plan-cadrs-container {
+  .tariff__cards-container {
     margin-top: 0px;
     flex-direction: column;
   }
-  
-  .plan-card {
-    min-width: 90%;
-    margin-bottom: 20px;
+
+  .tariff__card {
+    min-width: 100%;
+    margin-bottom: 1.25rem;
   }
 }
